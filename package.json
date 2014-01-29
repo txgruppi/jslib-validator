@@ -1,6 +1,6 @@
 {
   "name": "jslib-validator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple data validator",
   "main": "./lib/validator.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "testling": {
     "files": "test/*.js",
-    "harness" : "mocha",
+    "harness": "mocha",
     "browsers": [
       "chrome/31.0",
       "firefox/25.0",
