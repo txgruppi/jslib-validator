@@ -1,0 +1,40 @@
+{
+  "name": "jslib-validator",
+  "version": "0.0.0",
+  "description": "Simple data validator",
+  "main": "./lib/validator.js",
+  "scripts": {
+    "test": "mocha --ui bdd",
+    "coverage": "mv lib lib-orig && jscoverage lib-orig lib && JSLIB_DOT_COV=1 `npm bin`/mocha -R html-cov > coverage.html && rm -rf lib && mv lib-orig lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/txgruppi/jslib-validator"
+  },
+  "author": "Tarcísio Gruppi <txgruppi@gmail.com> (http://github.com/txgruppi)",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/txgruppi/jslib-validator/issues"
+  },
+  "homepage": "https://github.com/txgruppi/jslib-validator",
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.17.1"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "harness" : "mocha",
+    "browsers": [
+      "chrome/31.0",
+      "firefox/25.0",
+      "iexplore/8.0",
+      "iexplore/9.0",
+      "iexplore/10.0",
+      "safari/6.0",
+      "opera/17.0",
+      "iphone/6.0",
+      "ipad/6.0",
+      "android-browser/4.2"
+    ]
+  }
+}
