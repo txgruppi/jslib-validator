@@ -32,3 +32,13 @@ validator('==', 1, 1, function(err){
   }
 });
 ```
+
+### Get a validator function
+
+```js
+var validator = require('jslib-validator');
+validator.register('==', function(a, b, cb){
+  cb(a === b ? null : 'not equal');
+});
+var eqValidator = validator('==');
+```
