@@ -8,7 +8,7 @@ Simple data validator
 
 ## Usage
 
-### Register a validator function
+### Register a function
 
 ```js
 var validator = require('jslib-validator');
@@ -17,7 +17,7 @@ validator.register('==', function(a, b, cb){
 });
 ```
 
-### Call a validator
+### Call a function
 
 ```js
 var validator = require('jslib-validator');
@@ -33,7 +33,7 @@ validator('==', 1, 1, function(err){
 });
 ```
 
-### Get a validator function
+### Get a registered function
 
 ```js
 var validator = require('jslib-validator');
