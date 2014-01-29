@@ -1,7 +1,6 @@
 # Validator
 
 [![Build Status](https://travis-ci.org/txgruppi/jslib-validator.png?branch=master)](https://travis-ci.org/txgruppi/jslib-validator)
-[![Code Climate](https://codeclimate.com/github/txgruppi/jslib-validator.png)](https://codeclimate.com/github/txgruppi/jslib-validator)
 [![devDependency Status](https://david-dm.org/txgruppi/jslib-validator/dev-status.png)](https://david-dm.org/txgruppi/jslib-validator#info=devDependencies)
 [![browser support](https://ci.testling.com/txgruppi/jslib-validator.png)](http://ci.testling.com/txgruppi/jslib-validator)
 
